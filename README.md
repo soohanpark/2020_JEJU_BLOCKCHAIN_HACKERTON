@@ -5,4 +5,4 @@
 
 
 
-[![Video Label](https://www.youtube.com/watch?v=BJ1Z5ITHXS0&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=BJ1Z5ITHXS0&feature=youtu.be)
+[![Video Label](https://github.com/Soohan-Park/2020_JEJU_BLOCKCHAIN_HACKERTON/blob/master/Documents/video_thumbnail.png)](https://www.youtube.com/watch?v=BJ1Z5ITHXS0&feature=youtu.be)
