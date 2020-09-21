@@ -1,6 +1,6 @@
 # 2020 JEJU BLOCKCHAIN HACKERTON
 
 
-![2020 JEJU BLOCKCHAIN HACKERTON](./Documents/메인 이미지.jpg)  
+![2020 JEJU BLOCKCHAIN HACKERTON](https://i.imgur.com/acAJCe0.jpg)  
 
 
