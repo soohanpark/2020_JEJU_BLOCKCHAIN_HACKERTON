@@ -15,3 +15,8 @@ Final Submission/
 
 # Node.js
 node_modules/
+
+
+# Klaytn
+# Upload instead of "*_forGithub.*"
+klaytn/crypt.js
