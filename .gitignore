@@ -21,7 +21,7 @@ node_modules/
 # Upload instead of "*_forGithub.*"
 klaytn/crypt.js
 klaytn/real.js
-klaytn/DEPLOYED_ADDRESS_forGithub
-klaytn/DEPLOYED_ABI_forGithub
+klaytn/DEPLOYED_ADDRESS
+klaytn/DEPLOYED_ABI
 
 klaytn/Klaytn Test Account/
