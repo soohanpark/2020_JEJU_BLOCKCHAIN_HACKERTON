@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <head>
+        <title>User Page</title>
+        <script>
+            function form_submit(){
+                receiver.submit();
+            }
+        </script>
+    </head>
+    <body>
+        <form action="/submit/receiver" name="receiver" id="receiver" method="POST">
+        <div class="contents">
+
+            <div>
+                결제 정보 등록 페이지입니다. 
+                아래에 정보를 입력해주세요!
+            </div>
+            
+            <table>
+                <tr>
+                    <td>구매자</td>
+                    <td><input name="buyer" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>메뉴명</td>
+                    <td><input name="menu" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>수량</td>
+                    <td><input name="quantity" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>가격</td>
+                    <td><input name="price" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>일시</td>
+                    <td><input name="date" type="datetime-local" /></td>
+                </tr>
+                <tr>
+                    <td>카드사</td>
+                    <td>
+                        <select name="card">
+                            <option value="1">하나카드</option>
+                            <option value="2">신한카드</option>
+                            <option value="3">삼성카드</option>
+                            <option value="4">국민카드</option>
+                            <option value="5">현대카드</option>
+                            <option value="6">우리카드</option>
+                            <option value="7">롯데카드</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>가게위치</td>
+                    <td><input name="location" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>해시태그</td>
+                    <td><input name="hashtag" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- <input type="submit" id="submit" />    -->
+                        <button type="submit" onclick="form_submit()">등록하기</button>
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+    </form>
+    
+    </body>
+</html>
